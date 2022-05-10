@@ -1,0 +1,9 @@
+{
+  "startable": true,
+  "ignore": [".git/", "node_modules/", "dist/", "test/"],
+  "watch": ["app/src/"],
+  "execMap": {
+    "ts": "node -r ts-node/register"
+  },
+  "ext": "ts,json"
+}
